@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(142deg, rgba(222,201,238,1) 0%, rgba(222,201,238,1) 6%, rgba(255,226,194,1) 80%);
+    background-size: cover;
+    color: #263759;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 96px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.top-section{
+    padding: 20px;
+}
+
+.round-top-border{
+    background-color: #fff;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    height: 5%;
+}
+
+.round-bottom-border{
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 5%;
+}
+
+.middle-section{
+    padding: 5px 0 20px 0;
+    background-color: #FDFDFD !important;
+}
+
+ .triangle-upside-down-full-width {
+        position: relative;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 50vw solid transparent;
+        border-right: 50vw solid transparent;
+        border-top: 20vh solid #fff;
+        top: 21.9%;
+    }
+
+
+.footer{
+    height: 10%;
+}
+.copyright{
+    color: #263759  !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.button-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border: none;
+    color: #263759  !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 200px;
+    margin-bottom: 5px;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background: #DEC9EE;
+    margin-bottom: 15px;
+}
+
+#save-el span{
+    background-color: rgb(241, 241, 241); 
+    border-radius: 50%; 
+    display: inline-block; 
+    padding: 10px;
+     width: 30px; 
+     height: 30px; 
+     line-height: 30px; 
+     margin-right: 10px;
+}
+
+#save-btn {
+    background: #E6F7AA;
+}
+
